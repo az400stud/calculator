@@ -13,9 +13,9 @@ stages:
     pool:
         vmImage: 'windows-2019'
     variables:
-    solution: '**/*.sln'
-    buildPlatform: 'Any CPU'
-    buildConfiguration: 'Release'
+      solution: '**/*.sln'
+      buildPlatform: 'Any CPU'
+      buildConfiguration: 'Release'
 
     steps:
     - task: NuGetToolInstaller@1
